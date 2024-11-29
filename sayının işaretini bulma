@@ -1,0 +1,23 @@
+#include <stdio.h>
+int tip(int n);
+int main(void){
+    int sayi;
+printf("sayi girin: ");
+scanf("%d",&sayi);
+tip(sayi);
+return 0;
+
+}
+int tip(int n){
+int s;
+s=n;
+if(s<0)
+printf("negatif\n");
+else if(s>0)
+printf("pozitif\n");
+else
+printf("notr\n");
+
+
+
+}
