@@ -1,0 +1,15 @@
+#include <stdio.h>
+int fac(int sayi){
+    int i,faktoriyel=1;
+    for(i=1;i<=sayi;i++){
+    faktoriyel*=i;
+    }
+return faktoriyel;
+}
+int main(){
+int a;
+printf("sayi girin: ");
+scanf("%d",&a);
+printf("sayinin faktoriyeli:%d",fac(a));
+return 0;
+}
