@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <math.h>
+float alan(float a);
+int main(void){
+    float n;
+printf("yaricapi girin: ");
+scanf("%f",&n);
+printf("dairenin alani: %f",alan(n));
+ return 0;
+}
+float alan(float a){
+    float sonuc;
+    sonuc=a*a*3.14;
+    return sonuc;
+
+}
