@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+void toplamsiparistutari();
+int main(){
+toplamsiparistutari();
+return 0;
+}
+void toplamsiparistutari(){
+int yemek,fiyat,toplam=0,i;
+printf("yemek sayisini girin: ");
+scanf("%d",&yemek);
+for(i=1;i<=yemek;i++){
+    printf("%d. yemegin fiyatini girin:\n ",i);
+    scanf("%d",&fiyat);
+    toplam+=fiyat;
+}
+printf("alisveris tutariniz:%d ",toplam);
+}
