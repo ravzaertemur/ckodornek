@@ -1,0 +1,19 @@
+#include <stdio.h>
+int bul(int a,int b);
+int main(void){
+    int sayi1,sayi2;
+    printf("taban sayiyi girin: ");
+    scanf("%d",&sayi1);
+    printf("us sayiyi girin: ");
+    scanf("%d",&sayi2);
+    bul(sayi1,sayi2);
+return 0;
+}
+int bul(int a,int b){
+int i,sonuc=1;
+for(i=1;i<=b;i++){
+    sonuc*=a;
+}
+printf("sonuc:%d ",sonuc);
+return sonuc;
+}
