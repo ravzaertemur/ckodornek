@@ -1,0 +1,33 @@
+#include <stdio.h>
+void menu();
+void kare();
+void daire();
+int main(void){
+    menu();
+return 0;
+}
+void menu(){
+    char c;
+printf("kare icin k tusuna daire icin d tusuna basin");
+scanf("%c",&c);
+if(c=='k')
+ kare();
+if(c=='d')
+ daire();
+}
+void kare(){
+int alan,a,b;
+printf("kenar degeri girin: ");
+scanf("%d",&a);
+printf("kenar degeri girin");
+scanf("%d",&b);
+alan=a*b;
+printf("karenin alani: %d",alan);
+}
+void daire(){
+    float alan1,r;
+    printf("yaricap degeri girin");
+    scanf("%f",&r);
+    alan1=r*r*3.14;
+    printf("dairenin alani: %f",alan1);
+}
